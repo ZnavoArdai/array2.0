@@ -178,11 +178,97 @@
 
 //24
 
-var num1=prompt("enter number1");
-var num2=prompt("enter number1");
+// var num1=prompt("enter number1");
+// var num2=prompt("enter number1");
 
 
-for(var i=0;i<num1;)
+// for(var i=0;i<num1;i++){
+//     for(var j=0;j<num2;j++){
+// console.log(i*j)
+//     } 
+// }
+
+//25
+
+// var x=[5,8,7,9,2];
+
+// for(var i=0;i<x.length;i++){
+//     console.log(x[i])
+// }
+
+//26
+// var x=["avi","natan","moti","beni","mor"];
+
+// for(var i=0;i<x.length;i++){
+//     console.log(x[i])
+// }
+
+//27
+
+// var x=[55,88,77,94,22,45,54,62];
+
+// for(var i=0;i<x.length;i++){
+
+//     if(x[i]%2==0){
+//         console.log(x[i])
+
+//     }
+// }
+
+//28
+
+//  function saveNames(x=[]){
+// var name=[];
+//     for(var i=0;i<5;i++){
+//         x=prompt("enter names");
+
+// name.push(x);
+
+//     }
+
+// console.log(name);
+//  }
+//  saveNames();
+
+//29
+
+// function printNotEven(x=[]){
+
+//     for(var i=0;i<7;i++){
+//         var num=parseInt(prompt("enter number"));
+// x.push(num);
+// if(x[i]%2==1){
+//     console.log(x[i]);
+// }
+// console.log(x);
+
+//     }
+
+
+// }
+
+
+
+// printNotEven();
+//30
+
+// var x=[1,"hello",89,"boba",45];
+
+// for(var i=0;i<x.length;i++){
+//     if(x[i]*0!=0)
+//     {
+//         x[i]="not_number";
+//     }
+
+// }
+
+// console.log(x);
+
+//31
+
+
+
+
 
 
 
@@ -241,6 +327,48 @@ for(var i=0;i<num1;)
 
 // randomEntris([1,2,3,4,"avi","natan",4]);
 
+//31
+
+
+//32
+// function squeer(num1,num2){
+// num1=parseInt(prompt("enter tzla"));
+// num2=parseInt(prompt("enter gova"));
+
+// console.log("shtah= "+num1*num2+"hekif= "+(num1*2+num2*2))
+
+// }
+
+// squeer();
+
+//33
+
+// function orderNumbers(x){
+// var newnum=[];
+// var count1=false;
+// var count2=false;
+
+//     for(var i=0;i<3;i++){
+//         x=parseInt(prompt("enter number"));
+//        newnum.push(x);
+
+
+    
+//     }
+
+//     if(newnum[0]>newnum[1]&&newnum[1]>newnum[2]){
+//         console.log("down")
+
+//     }
+//     else if(newnum[0]<newnum[1]&&newnum[1]<newnum[2]){
+//         console.log("up")
+
+//     }
+//     else
+//     console.log("not orderd")
+
+// }orderNumbers();
+
 //35
 
 // function printString(x){
@@ -293,7 +421,49 @@ for(var i=0;i<num1;)
 // changeEvnes("hello")
 
 
+// function firstName(fname){
+// var temp=" ";
+// var newar=[];
+// var cunter1=0;
+// var upp;
+// fname=prompt("enter name");
+// for(var i=0;i<fname.length;i++){
+    
+//     if(fname[i]==temp){
+//         cunter1++
 
+
+// }
+
+// if(cunter1==0)
+// {
+// fname=fname.toUpperCase();
+// console.log(fname)
+// }
+// }
+
+
+
+// if(cunter1==2)
+// {
+//     console.log(fname)
+
+// }
+// else {
+//     console.log(fname)
+
+// }
+ 
+
+
+
+
+
+
+
+// }
+
+// firstName();
 
 
 
